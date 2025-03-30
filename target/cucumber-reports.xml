@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="2.333" tests="6" skipped="0" failures="5" errors="0" timestamp="2025-03-30T02:44:20.574634700Z">
-<testcase classname="Hotel Booking In Adactin Application" name="1" time="2.015">
+<testsuite name="Cucumber" time="23.018" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-30T14:32:26.043714400Z">
+<testcase classname="Hotel Booking In Adactin Application" name="1" time="4.082">
 <system-out><![CDATA[
 Given user launch The Application...........................................passed
 When user Enter The Username In Username Filed..............................passed
@@ -8,51 +8,46 @@ And : User Enter The Password In Password Field.............................pass
 Then : User Click On The Login Button And It Navigates To Search Hotel Page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.012">
-<failure/>
+<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="2.49">
 <system-out><![CDATA[
-When : user Select The Location.............................................undefined
-When : user Select The Hotel................................................skipped
-When : user Select The RoomType.............................................skipped
-When : user Select The NumberofRooms........................................skipped
-When : user Enters The CheckinDate..........................................skipped
-When : user Enters The CheckOutDate.........................................skipped
-When : user Select The AdultPerRoom.........................................skipped
-When : user Select The ChildrenPerRoom......................................skipped
-Then : User Click on the Search Button And It Navigates To Select Hotel page.skipped
+When : user Select The Location.............................................passed
+When : user Select The Hotel................................................passed
+When : user Select The RoomType.............................................passed
+When : user Select The NumberofRooms........................................passed
+When : user Enters The CheckinDate..........................................passed
+When : user Enters The CheckOutDate.........................................passed
+When : user Select The AdultPerRoom.........................................passed
+When : user Select The ChildrenPerRoom......................................passed
+Then : User Click on the Search Button And It Navigates To Select Hotel page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="0.002">
-<failure/>
+<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="0.444">
 <system-out><![CDATA[
-When : user Select The RadioButton..........................................undefined
-When : user Select The ContinueButton.......................................skipped
+When : user Select The RadioButton..........................................passed
+When : user Select The ContinueButton.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.004">
-<failure/>
+<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="1.911">
 <system-out><![CDATA[
-When : user Enters The FirstName............................................undefined
-When : user Enters The LastName.............................................skipped
-When : user Enters The Address..............................................skipped
-When : user Enters The CCN Number...........................................skipped
-When : user Enters The CC TYpe..............................................skipped
-When : user Enters The CC Expiry Month......................................skipped
-When : user Enters The CC Expiry Year.......................................skipped
-When : user Enters The CC CVV...............................................skipped
-Then : User Click on the BookNow Button It Navigates To Booking Cofirmation Page.skipped
+When : user Enters The FirstName............................................passed
+When : user Enters The LastName.............................................passed
+When : user Enters The Address..............................................passed
+When : user Enters The CCN Number...........................................passed
+When : user Enters The CC TYpe..............................................passed
+When : user Enters The CC Expiry Month......................................passed
+When : user Enters The CC Expiry Year.......................................passed
+When : user Enters The CC CVV...............................................passed
+Then : User Click on the BookNow Button It Navigates To Booking Cofirmation Page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="0.003">
-<failure/>
+<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="13.341">
 <system-out><![CDATA[
-When : user Click My Itineary Button........................................undefined
+When : user Click My Itineary Button........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.4" time="0.001">
-<failure/>
+<testcase classname="Hotel Booking In Adactin Application" name="1.4" time="0.367">
 <system-out><![CDATA[
-Then : user Click Logout Button.............................................undefined
+Then : user Click Logout Button.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
