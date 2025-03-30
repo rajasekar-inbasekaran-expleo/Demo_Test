@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="2.424" tests="6" skipped="0" failures="5" errors="0" timestamp="2025-03-28T10:08:43.628900200Z">
-<testcase classname="Hotel Booking In Adactin Application" name="1" time="2.15">
+<testsuite name="Cucumber" time="2.333" tests="6" skipped="0" failures="5" errors="0" timestamp="2025-03-30T02:44:20.574634700Z">
+<testcase classname="Hotel Booking In Adactin Application" name="1" time="2.015">
 <system-out><![CDATA[
 Given user launch The Application...........................................passed
 When user Enter The Username In Username Filed..............................passed
@@ -8,7 +8,7 @@ And : User Enter The Password In Password Field.............................pass
 Then : User Click On The Login Button And It Navigates To Search Hotel Page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.009">
+<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.012">
 <failure/>
 <system-out><![CDATA[
 When : user Select The Location.............................................undefined
@@ -29,7 +29,7 @@ When : user Select The RadioButton..........................................unde
 When : user Select The ContinueButton.......................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.003">
+<testcase classname="Hotel Booking In Adactin Application" name="1.2" time="0.004">
 <failure/>
 <system-out><![CDATA[
 When : user Enters The FirstName............................................undefined
@@ -43,13 +43,13 @@ When : user Enters The CC CVV...............................................skip
 Then : User Click on the BookNow Button It Navigates To Booking Cofirmation Page.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="0.001">
+<testcase classname="Hotel Booking In Adactin Application" name="1.3" time="0.003">
 <failure/>
 <system-out><![CDATA[
 When : user Click My Itineary Button........................................undefined
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking In Adactin Application" name="1.4" time="0.007">
+<testcase classname="Hotel Booking In Adactin Application" name="1.4" time="0.001">
 <failure/>
 <system-out><![CDATA[
 Then : user Click Logout Button.............................................undefined

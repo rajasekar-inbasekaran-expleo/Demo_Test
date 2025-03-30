@@ -25,7 +25,7 @@ public class Step_Definition extends TestBaseClass {
 	@When("user Enter The Username In Username Filed")
 	public void user_enter_the_username_in_username_filed() {
 		
-		inputValue(login.getUser_name(), "Raje@123");
+		inputValue(login.getUser_name(), "rajasekari");
 	   
 	}
 	@When(": User Enter The Password In Password Field")

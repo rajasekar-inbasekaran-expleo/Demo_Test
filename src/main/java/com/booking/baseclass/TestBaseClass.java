@@ -26,7 +26,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class TestBaseClass {
-	
+
 	public static WebDriver driver;
 
 	public static String value;
@@ -37,14 +37,13 @@ public class TestBaseClass {
 		if (browser.equalsIgnoreCase("chrome")){
 
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Metadata exchange apps\\Selenium_practice\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-
+					 System.getProperty("user.dir") + "/DriverDetails/chromedriver.exe");
 
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
 
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Metadata exchange apps\\Selenium_practice\\chromedriver-win64\\chromedriver-win64\\geckodriver.exe");
+					"/BookingHotel/DriverDetails/chromedriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.chrome.driver",
@@ -250,13 +249,13 @@ public class TestBaseClass {
 		}
 	}
 
-//	// screenshot
-//	public static void screenshot(String location) throws IOException {
-//		TakesScreenshot ts = (TakesScreenshot) driver;
-//		File source = ts.getScreenshotAs(OutputType.FILE);
-//		File destination = new File(location);
-//		FileUtils.copyFile(source, destination);
-//	}
+	//	// screenshot
+	//	public static void screenshot(String location) throws IOException {
+	//		TakesScreenshot ts = (TakesScreenshot) driver;
+	//		File source = ts.getScreenshotAs(OutputType.FILE);
+	//		File destination = new File(location);
+	//		FileUtils.copyFile(source, destination);
+	//	}
 
 	// windowshandle+
 
